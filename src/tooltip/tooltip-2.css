@@ -1,0 +1,34 @@
+div.tooltip-container {
+  max-width:25em;
+  height:auto;
+  position:relative;
+  margin:1.563em auto;
+}
+
+div.tooltip-container a{
+  text-decoration:none;
+  color:black;
+  cursor:default;
+  font-weight:normal;
+}
+
+div.tooltip-container a span{
+  visibility:hidden;
+  position:absolute;
+  left:15em;
+  top:-2.3em;
+  background-color:#f4f1f1;
+  background:#f4f1f1;
+  width:17em;
+  border:1px solid #BBB;
+  font-size:13px;
+  padding:0.3em;
+  cursor:default;
+  line-height:140%;
+  padding:20px;
+  border-radius:6px;
+}
+
+div.tooltip-container a:hover span{
+  visibility:visible;
+}
